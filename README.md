@@ -1,6 +1,7 @@
 # Progressive Delivery with OpenFeature and Keptn
 
-Progressive delivery workshop for OpenFeature and Keptn
+Progressive delivery workshop for OpenFeature and Keptn. The original workshop
+at the KCD Munich is here https://github.com/AloisReitbauer/progressiveDelivery-masterclass
 
 ```bash
 # create empty GKE cluster
