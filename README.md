@@ -18,7 +18,9 @@ argocd admin initial-password -n argocd
 npm install
 node index.js
 
-
+# build and push docker images for demo app
+docker buildx create --use
+docker buildx build --platform linux/amd64,linux/arm64 --push --tag lreimer/featuredemo:v1.1 .
 ```
 
 ## Maintainer

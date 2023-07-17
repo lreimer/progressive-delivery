@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: demoapp
+  namespace: demo
+spec:
+  type: LoadBalancer
+  selector:
+    app.kubernetes.io/name: featuredemo
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
